@@ -10,9 +10,10 @@ body {
 .container {
     position: relative;
     background-color: whitesmoke;
-    border: 1px solid;
+    border: none;
     padding: 10px;
     box-shadow: 5px 2px 5px 1px #888888;
+    outline: none;
     left: 35%;
     margin-top: 150px;
     width: 400px;
