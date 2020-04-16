@@ -27,6 +27,7 @@ h3 {
 }
 
 h6 {
+    font-family: 'Oswald', sans-serif;
     position: absolute;
     left: 45%;
     top: 10%;
@@ -82,8 +83,9 @@ h6 {
 }
 
 .newAcount {
+    font-family: 'Oswald', sans-serif;
     position: absolute;
-    left: 34%;
+    left: 37%;
     top: 85%;
     text-decoration: none;
     color: grey;
@@ -91,8 +93,9 @@ h6 {
 }
 
 .newAcount :visited {
+    font-family: 'Oswald', sans-serif;
     position: absolute;
-    left: 34%;
+    left: 40%;
     top: 85%;
     text-decoration: none;
     color: grey;
