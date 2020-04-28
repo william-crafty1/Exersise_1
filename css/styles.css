@@ -3,129 +3,54 @@ html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body {
-    background-color: rgba(223, 241, 250, 0.986);
+    background-color: #EAF4F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-/* main container CSS */
-.container {
-    position: relative;
-    background-color: whitesmoke;
-    border: none;
-    padding: 10px;
-    box-shadow: 5px 2px 5px 1px #888888;
-    outline: none;
-    left: 35%;
-    margin-top: 150px;
-    width: 400px;
-    height: 400px;
-}
-
-/* Header CSS */
-h3 {
-    position: absolute;
-    left: 30%;
-    top: 5%;
-}
-
-h6 {
-    font-family: 'Oswald', sans-serif;
-    position: absolute;
-    left: 45%;
-    top: 10%;
-    color: grey;
-}
-
-/* Form CSS */
-
-.email input {
-    position: absolute;
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    padding: 40px;
     width: 300px;
+    height: 300px;
+    box-shadow: 10px 10px 2px -50px #00000069;
+}
+
+h2{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+p{
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+input{
+    margin-bottom: 25px;
     border: none;
-    background: transparent;
-    outline: none;
     border-bottom: 1px solid grey;
-    left: 15%;
-    top: 30%;
-    color: grey;
-    font-size: medium;
+    font-size: 1.1rem;
 }
 
-.password input{
-    position: absolute;
-    width: 300px;
+.forgot{
+    transform: translate(40%,-250%);
+}
+
+button{
+    margin-bottom: 5px;
+    background-color: #3598DB;
     border: none;
-    background: transparent;
-    outline: none;
-    border-bottom: 1px solid grey;
-    left: 15%;
-    top: 50%;
-    color: grey;
-    font-size: medium;
-}
-
-/* Link CSS */
-
-.forgetMe {
-    position: absolute;
-    left: 75%;
-    top: 51%;
-    text-decoration: none;
-    color: grey;
-    font-size: x-small;
-}
-
-.forgetMe :visited {
-    position: absolute;
-    left: 75%;
-    top: 61%;
-    text-decoration: none;
-    color: grey;
-    font-size: x-small;
-}
-
-.newAcount {
-    font-family: 'Oswald', sans-serif;
-    position: absolute;
-    left: 37%;
-    top: 85%;
-    text-decoration: none;
-    color: grey;
-    font-size: x-small;
-}
-
-.newAcount :visited {
-    font-family: 'Oswald', sans-serif;
-    position: absolute;
-    left: 40%;
-    top: 85%;
-    text-decoration: none;
-    color: grey;
-    font-size: x-small;
-
-}
-
-
-/* Button CSS */
-
-.signIn {
-    position: absolute;
-    width: 300px;
-    height: 50px;
-    left: 15%;
-    top: 70%;
-    background-color: rgb(106, 171, 231);
-    border: none;
-    cursor: pointer;
-}
-
-.buttonLink {
+    padding: 15px;
     color: white;
-    text-decoration: none;
-    font-size: medium;
 }
 
-.buttonLink :visited {
-    color: white;
+a{
     text-decoration: none;
-    font-size: medium;
+    color: grey;
 }
